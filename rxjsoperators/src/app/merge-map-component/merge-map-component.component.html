@@ -1,0 +1,38 @@
+
+<div class="container">
+    <div >
+        <button class="btn btn-primary" (click)="getUsingMergeMap()">Click to get characters</button>
+      
+    </div>
+    
+    
+    <div *ngIf="visible">
+        <div class="h-2"> Description - Power</div>
+        <div class="card">
+            <div class="card-header">Character- Info</div>
+                <div   class="card-body" class="py-4" *ngFor="let character of fetchedCharacters">
+                 <div class="card-text">
+                    <div class="row">
+        
+                    <div class="col"><span class="ml-2">{{character.characterName}}</span></div>
+                        <div class="col pr-2"> <span>{{character.superpower}}</span></div>
+                </div>
+            </div>
+                 </div>
+            </div>
+   
+<div class="card">
+    <div class="card-header">Character- Info</div>
+        <div   class="card-body" class="py-4" *ngFor="let character of fetchedInfo">
+         <div class="card-text">
+            <div class="row">
+
+            <div class="col"><span class="ml-2"> {{character.characterName}}</span></div>
+                <div class="col pr-2"> <span> {{character.info}}</span></div>
+        </div>
+    </div>
+         </div>
+    </div>
+</div>
+    </div>
+    

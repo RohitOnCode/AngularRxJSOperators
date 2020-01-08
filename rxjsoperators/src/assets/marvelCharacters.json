@@ -1,0 +1,17 @@
+{"characters" : [{
+    "characterName" : "IronMan",
+    "superpower" : "Rich"
+},
+{
+    "characterName" : "SpiderMan",
+    "superpower" : "Web"
+},
+{
+    "characterName" : "AntMan",
+    "superpower" : "HeightAdjustment"
+},
+{
+    "characterName" : "Captain America",
+    "superpower" : "Strength"
+}]
+}
