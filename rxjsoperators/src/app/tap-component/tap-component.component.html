@@ -1,0 +1,16 @@
+
+<div class="container">
+<div >
+    <button class="btn btn-primary" (click)="utilizeTaketogetCharacters()">Click to get characters</button>
+  
+</div>
+
+
+
+    <div   class="py-4" *ngFor="let character of fetchedCharacters">
+       
+       <span> {{character.characterName}}</span>
+       <span> {{character.superpower}}</span>
+    </div>
+
+</div>

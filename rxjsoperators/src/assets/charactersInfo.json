@@ -1,0 +1,17 @@
+{"characters" : [{
+    "characterName" : "IronMan",
+    "info" : "Man powered by radioactive plutonium"
+},
+{
+    "characterName" : "SpiderMan",
+    "info" : "Man bitten by radioactive spider"
+},
+{
+    "characterName" : "AntMan",
+    "info" : "Man bitten by Ant , can adjust height"
+},
+{
+    "characterName" : "Captain America",
+    "info" : "Man formed during WW2 with extra human powers"
+}]
+}

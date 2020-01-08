@@ -1,0 +1,17 @@
+{"characters" : [{
+    "characterName" : "BatMan",
+    "superpower" : "Rich"
+},
+{
+    "characterName" : "SuperMan",
+    "superpower" : "Strength"
+},
+{
+    "characterName" : "WonderWoman",
+    "superpower" : "Magic"
+},
+{
+    "characterName" : "Joker",
+    "superpower" : "Street Smart"
+}]
+}
